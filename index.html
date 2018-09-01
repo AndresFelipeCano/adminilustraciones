@@ -5,24 +5,36 @@
     <meta name="viewoirt" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ieedge">
     <title>Ilustraciones | Log-in</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <main class="mainContainer">
-      <header class="sectionHeader">
-          <div class="logoIL">
+    <div class="box">
+      <div class="header">
+        <div class="cont-lock"><i class="material-icons lock">lock</i></div>
+        <div class="bottom-head"><h1 class="logintoregister">Login</h1></div>
+      </div>
+      <form class="" action="" method="post">
+        <div class="group">
+          <input type="text" name="" value="" class="inputMaterial" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label for="">Email</label>
+        </div>
+        <div class="group">
+          <input type="password" name="" value="" class="inputMaterial" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label for="">ID</label>
+        </div>
+        <button type="btn btn-login" name="button">Entrar</button>
+      </form>
+      <div class="footer-box">
+        <p class="footer-text"></p>
+      </div>
+    </div>
 
-          </div>
-      </header>
-      <section class="sectionTitle">
-        <p>Debes verificar tu identidad antes de entrar.</p>
-      </section>
-
-
-      <section class="sectionBtns maxW1200">
-        <button type="button" name="loginButton">Entrar</button>
-      </section>
-
-    </main>
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
